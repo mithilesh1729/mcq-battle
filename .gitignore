@@ -1,13 +1,36 @@
-
-# Ignore environment and compiled files
+# Virtual Environment
 myenv/
-__pycache__/
-db.sqlite3
-*.pyc
-*.log
+venv/  # In case you use a different name later
 
-# Ignore VS Code settings
-.vscode/
-
-# Ignore Django secret key file (if applicable)
+# Sensitive Files
 .env
+
+# Database Files (optional, covering SQLite)
+*.sqlite3
+*.sqlite3-journal
+
+# Python Bytecode and Cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs and Local Configs
+*.log
+local_settings.py
+
+# Editor/OS Files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Future Frontend (React)
+node_modules/
+dist/
+build/
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
