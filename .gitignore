@@ -1,0 +1,13 @@
+
+# Ignore environment and compiled files
+myenv/
+__pycache__/
+db.sqlite3
+*.pyc
+*.log
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Django secret key file (if applicable)
+.env
